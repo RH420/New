@@ -115,16 +115,16 @@ except mechanize.URLError:
 			except requests.exceptions.ConnectionError:
 				print"\n\x1b[1;91mThere is no internet connection"
 				keluar()
-		if 'checkpoint' in url:
-			print("\n\x1b[1;91mYour Account is on Checkpoint")
-			os.system('rm -rf login.txt')
-			time.sleep(1)
-			keluar()
-		else:
-			print("\n\x1b[1;91mPassword/Email is wrong")
-			os.system('rm -rf login.txt')
-			time.sleep(1)
-			login()
+if 'checkpoint' in url:
+	print("\n\x1b[1;91mYour Account is on Checkpoint")
+	os.system('rm -rf login.txt')
+	time.sleep(1)
+	keluar()
+else:
+	print("\n\x1b[1;91mPassword/Email is wrong")
+	os.system('rm -rf login.txt')
+	time.sleep(1)
+	login()
 
 
 def menu():
