@@ -241,15 +241,6 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
-	jalan('              \033[1;91mREAD CAREFULLY:')
-	jalan("\033[1;97m   It's not in Commands Control to get a   ")
-	jalan('\033[1;97m   New or Old Account,It Totally Depends   ')
-	jalan('\033[1;97m   on Friends List And the Accounts that   ')
-	jalan("\033[1;97m   goes to Checkpoint is due to Facebook ")
-	jalan("\033[1;97m    Security,That's not Commands Issue.")
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 	
 			
