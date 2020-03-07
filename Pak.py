@@ -51,19 +51,15 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-        \033[1;97m::::::::    :::   :::   ::::::::::: 
-      \033[1;97m:+:    :+:  :+:+: :+:+:      :+:      
-     \033[1;92m+:+    +:+ +:+ +:+:+ +:+     +:+       
-    \033[1;92m+#+    +:+ +#+  +:+  +#+     +#+        
-   \033[1;92m+#+    +#+ +#+       +#+     +#+         
-  \033[1;92m#+#    #+# #+#       #+#     #+#          
-  \033[1;92m########  ###       ### ###########
-\033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97mAuthor©\033[1;97m: \033[1;92mOmi Chaudhary
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Omi6t
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Omi6t
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174
-\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
+        \033[1;93m       (           )    \033[1;91m*         
+  \033[1;93m(  (         )\ \033[1;91m)\033[1;93m  (  ( /(  (  `        
+  \033[1;93m)\033[1;91m\)\033[1;93m)(   '(  ((\033[1;91m)\033[1;93m/(  )\ )\()) \033[1;91m)\)\033[1;93m)(  (    
+ \033[1;93m((\033[1;91m_)\033[1;93m()\ )\033[1;91m )\033[1;93m\  /(_)|((_|(\033[1;91m_)\ \033[1;93m((_)()\033[1;91m\ )\   
+ \033[1;93m_(())\033[1;91m\_)(\033[1;93m|\033[1;91m(_)\033[1;93m(_)\033[1;91m) \033[1;93m)\___ ((_)(_\033[1;91m()((\033[1;93m_|\033[1;91m(_)  
+ \033[1;91m\ \((_)/ / __| | ((/ __/ _ \|  \/  | __| 
+  \033[1;91m\ \/\/ /| _|| |__| (_| (_) | |\/| | _|  
+   \033[1;91m\_/\_/ |___|____|\___\___/|_|  |_|___|
+\033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -81,53 +77,7 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print  """
-        \033[1;93m       (           )    \033[1;91m*         
-  \033[1;93m(  (         )\ \033[1;91m)\033[1;93m  (  ( /(  (  `        
-  \033[1;93m)\033[1;91m\)\033[1;93m)(   '(  ((\033[1;91m)\033[1;93m/(  )\ )\()) \033[1;91m)\)\033[1;93m)(  (    
- \033[1;93m((\033[1;91m_)\033[1;93m()\ )\033[1;91m )\033[1;93m\  /(_)|((_|(\033[1;91m_)\ \033[1;93m((_)()\033[1;91m\ )\   
- \033[1;93m_(())\033[1;91m\_)(\033[1;93m|\033[1;91m(_)\033[1;93m(_)\033[1;91m) \033[1;93m)\___ ((_)(_\033[1;91m()((\033[1;93m_|\033[1;91m(_)  
- \033[1;91m\ \((_)/ / __| | ((/ __/ _ \|  \/  | __| 
-  \033[1;91m\ \/\/ /| _|| |__| (_| (_) | |\/| | _|  
-   \033[1;91m\_/\_/ |___|____|\___\___/|_|  |_|___|
-\033[1;91m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;93m๑۩۩๑\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;91mAuthor©\033[1;91m: \033[1;93mOmi Chaudhary
-\033[1;91mInstagram\033[1;91m: \033[1;93mhttps://www.Instagram.com/Omi6t
-\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/Omi6t
-\033[1;91mWhatsapp\033[1;91m: \033[1;93m+923117675174
-\033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»
-\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"""
-
-CorrectUsername = "Omi6t"
-CorrectPassword = "Omi"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;96m🔐 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;93m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;93m")
-        if (password == CorrectPassword):
-            jalan ("\033[1;91mLogin Successful as \033[1;93mOmi Chaudhary")
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
-    else:
-        print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
-
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOError):
-		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;97mDo Not Use Your Personal Account' )
-		jalan('          \033[1;97mUse a Fresh Account To Login' )
-		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 		print('	   \033[1;95m【\x1b[1;95mLOGIN WITH FACEBOOK\x1b[1;95m】' )
 		print('	' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email\x1b[1;93m: \x1b[1;96m')
@@ -203,10 +153,6 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print "  \033[1;97m«---------\033[1;95mLogged in User Info\033[1;97m---------»"
-	print "	   \033[1;93m Name\033[1;93m:\033[1;97m"+nama+"\033[1;97m               "
-	print "	   \033[1;93m ID\033[1;93m:\033[1;97m"+id+"\x1b[1;97m              "
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
@@ -253,7 +199,6 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 		jalan('\033[1;93mGetting IDs \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -288,15 +233,6 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
-	jalan('              \033[1;91mREAD CAREFULLY:')
-	jalan("\033[1;97m   It's not in Commands Control to get a   ")
-	jalan('\033[1;97m   New or Old Account,It Totally Depends   ')
-	jalan('\033[1;97m   on Friends List And the Accounts that   ')
-	jalan("\033[1;97m   goes to Checkpoint is due to Facebook ")
-	jalan("\033[1;97m    Security,That's not Commands Issue.")
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 	
 			
@@ -417,21 +353,8 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	print "  \033[1;91m«---------Developed By Omi------------»"
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print """
-              .--,       .--,
-             ( (  \.---./  ) )
-              '.__/o   o\__.'
-                 {=  ^  =}
-                  >  -  <
-.-------------.""`-------`"".-------------.
-: \033[1;92m     Hope You Will Come Back Soon..    \033[1;93m :
-'-----------------------------------------' 
-                ___)( )(___
-               (((__) (__)))"""
-	
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 
